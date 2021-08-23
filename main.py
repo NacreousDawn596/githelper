@@ -2,10 +2,6 @@ import os
 
 os.system("clear")
 
-read = open("README.md", 'w')
-
-setupsh = open("setup.sh", 'w')
-
 def start():
 	choice = input("1- README.md maker \n2- setup.sh maker \n->")
 	if choice == "1":
@@ -16,6 +12,7 @@ def start():
 		start()
 
 def readme():
+	read = open("README.md", 'w')
 	step = []
 	name = input("what is the project name?\n->")
 	description = input("it can be better if you add a description\n->")
@@ -60,6 +57,7 @@ def readme():
 	print("done!")
 
 def setup():
+	setupsh = open("setup.sh", 'w')
 	packages = []
 	code = []
 	pack = input("which package we should download? (when you finish package write EOF)\n->")
