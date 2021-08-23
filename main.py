@@ -103,9 +103,9 @@ sudo apt-get install '''
 		setupsh.write(''.join("\n"))
 	setupsh.write(''.join("clear\n"))
 	setupsh.write(''.join("echo 'done!'\n"))
-	com = input("do you want to add a comment? y/n")
+	com = input("do you want to add a comment? y/n\n->")
 	if com == "y":
-		com = input("->")
+		com = input("write it down\n->")
 		setupsh.write(''.join("echo '")
 		setupsh.write(''.join(com))
 		setupsh.write(''.join("'"))
