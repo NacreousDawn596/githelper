@@ -17,5 +17,5 @@ echo '' >> ~/.bashrc
 echo 'source ~/.local/share/NacreousDawn596/githelper/.help.sh' >> ~/.bashrc
 echo '' >> ~/.bashrc
 clear
-done!
-now you can it by writing githelp after restaring the terminal
+echo 'done!'
+echo 'now you can it by writing githelp after restaring the terminal'
